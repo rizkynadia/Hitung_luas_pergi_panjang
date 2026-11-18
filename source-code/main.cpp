@@ -7,32 +7,27 @@ using namespace std;
 // IMPLEMENTASI ALGORITMA DALAM C++
 // ========================================
 
-// Nama Lengkap :
-// Kelas        :
-// Nomor Absen  :
-// Judul Program:
+// Nama Lengkap :RIZKY NADIA TRI RAHAYU
+// Kelas        :XII.10
+// Nomor Absen  :32
+// Judul Program:MENGHITUNG LUAS PERSEGI PANJANG
+
+include<iostrem>
+using namespace std;
 
 int main() {
+  float lebar,panjang,luas;
 
-    // 1. DEKLARASI VARIABEL
-    // Deklarasikan variabel yang diperlukan.
+  cout<<"Menghitung luas persegi panjang"<<endl;
+  
+  cout<<"Masukan nilai panjang :"<<endl;
+  cin>>panjang;
+  cout<<"Masukan nilai lebar:"<<endl;
+  cin>>lebar;
 
+  luas= panjang * lebar;
 
-    // 2. INPUT
-    // Tuliskan perintah untuk menerima data
-    // dari pengguna menggunakan cin atau getline.
-
-
-    // 3. PROSES
-    // Tuliskan proses atau perhitungan program.
-    // Gunakan IF-ELSE jika diperlukan.
-    // Gunakan FOR atau WHILE jika diperlukan.
-
-
-    // 4. OUTPUT
-    // Tuliskan perintah untuk menampilkan hasil
-    // menggunakan cout.
-
+  cout<<"Luas persegi panjang ="<<luas<<endl;
 
     return 0;
 }
